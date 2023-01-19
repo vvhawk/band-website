@@ -1,0 +1,550 @@
+@font-face {
+    font-family: 'Fairfield LT Std';
+    src: url('fonts/FairfieldLTStd-Bold.eot');
+    src: local('Fairfield LT Std 75 Bold'), local('FairfieldLTStd-Bold'),
+        url('fonts/FairfieldLTStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FairfieldLTStd-Bold.woff2') format('woff2'),
+        url('fonts/FairfieldLTStd-Bold.woff') format('woff'),
+        url('fonts/FairfieldLTStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fairfield LT Std';
+    src: url('fonts/FairfieldLTStd-Light.eot');
+    src: local('Fairfield LT Std 45 Light'), local('FairfieldLTStd-Light'),
+        url('fonts/FairfieldLTStd-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FairfieldLTStd-Light.woff2') format('woff2'),
+        url('fonts/FairfieldLTStd-Light.woff') format('woff'),
+        url('fonts/FairfieldLTStd-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+/*
+@font-face {
+    font-family: 'Fairfield LT Std';
+    src: url('fonts/FairfieldLTStd-CaptionHeavy.eot');
+    src: local('Fairfield LT Std 85 Heavy Caption'), local('FairfieldLTStd-CaptionHeavy'),
+        url('fonts/FairfieldLTStd-CaptionHeavy.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FairfieldLTStd-CaptionHeavy.woff2') format('woff2'),
+        url('fonts/FairfieldLTStd-CaptionHeavy.woff') format('woff'),
+        url('fonts/FairfieldLTStd-CaptionHeavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+*/
+
+@font-face {
+    font-family: 'Reenie Beanie';
+    src: url('fonts/ReenieBeanie-Regular.ttf') format('truetype');
+}
+
+/* 
+reset default css styles applied to body and ul 
+
+this removes white space on sides of header
+*/
+
+*{
+    box-sizing: border-box;
+    font-family: 'Fairfield LT Std';
+    font-style: normal;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFCFCF;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    
+
+}
+
+body.tour{
+    background-color: #fabc7d;
+}
+
+body.store{
+    background-color: #ffe494;
+}
+
+body.checkout{
+    /*background-color: #94b8f6;*/
+    background-image: url("images/idk.jpeg");
+    background-size: cover;
+    background-color:#00000099;
+    
+    
+}
+
+
+
+.nav ul{
+    margin: 0px;
+    padding-left: 0;
+}
+
+.nav li{
+    display: inline;
+    
+
+}
+
+.nav a{
+    display: inline-block; /* allows you to add passing and height*/
+    padding: .5em;
+   
+    
+    color: white;
+    
+
+}
+
+.main-nav a:hover{
+    background-color:#ea999999;
+}
+
+.tour-nav a:hover{
+    background-color: #f9cb9c99
+}
+
+.store-nav a:hover{
+    background-color: #ffe59999;
+}
+
+.checkout-nav a:hover{
+    background-color: #a4c2f499;
+}
+
+.nav{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.main-top{
+    background-color: rgba(0,0,0,.4);
+    background-image: url(images/mainTop.jpeg);
+    background-blend-mode: multiply;
+
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+
+    padding-bottom: 30px;
+    
+}
+
+.tour-top{
+    
+    background-image: url(images/tourTop.jpeg);
+   
+}
+
+.store-top{
+
+    background-image: url(images/storeTop.jpeg);
+    background-color:#00000099;
+}
+
+.checkout-top{
+    background-image: url(images/checkoutTop.jpeg);
+    background-color:#00000099;
+}
+
+.band-name{
+    text-align: center;
+    margin: 0.2em;
+    font-size: 4em;
+    font-family:"Reenie Beanie";
+    color: white;
+}
+
+.content-section{
+    margin: 1em;
+    text-align: center;
+    
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    text-align: center;
+}
+
+.about-image{
+    border-radius: 50%;
+    width:100%;
+    height:auto;
+}
+
+.color .about-image{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+    
+.color .about-image:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
+
+.checkout-image{
+    border-radius: 10%;
+    width:50%;
+    height:auto;
+}
+
+
+
+.opening{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.opening.checkout{
+    font-style:bold;
+    font-size: 1.5em;
+    /*color: rgb(89, 241, 155);*/
+    color: #ffd966;;
+
+    
+    
+}
+
+
+
+a:link, a:visited {
+    color: white;
+}
+
+.opening a:hover{
+    color:#ffd966;
+    font-size: 1.1em;
+}
+
+
+
+
+footer{
+    text-align: center;
+    padding: .25em 0;
+    background-color: #fabc7d;
+
+    margin-top: auto;
+    
+}
+
+footer.tour{
+    text-align: center;
+    padding: .25em 0;
+    background-color: #ffe494;
+
+    margin-top: auto;
+    
+}
+
+footer.store{
+    text-align: center;
+    padding: .25em 0;
+    background-color: #FFCFCF;
+
+    margin-top: auto;
+
+}
+
+footer.checkout{
+    text-align: center;
+    padding: .25em 0;
+
+    background-blend-mode: multiply;
+
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-image: url(images/checkoutBottom.jpeg);
+    background-color:#00000099;
+
+    margin-top: auto;
+
+    
+}
+
+
+.footer-container{
+    display:flex;
+    align-items: center;
+
+    
+}
+
+.footer-container ul{
+    flex-grow: 1;
+    text-align: center;
+    padding-left: 0;
+     
+}
+
+.button{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+    
+}
+
+.button-play{
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    
+
+    display: block;
+    margin: 0 auto;
+    
+    padding-left: 2em;
+    padding-right: 2em;
+    
+    
+    
+
+}
+
+.container a{
+    
+    text-decoration: none;
+}
+
+.button-play:hover{
+    background-color: #f9cb9c99;
+}
+
+.tour-row{
+    border-bottom: 1px solid black;
+    padding: 1em;
+    margin-bottom: 1em;
+    
+}
+
+.tour-row:last-child{
+    border-bottom: none;
+}
+
+.tour-item{
+    display:inline-block;
+    padding-right: 1em;
+    
+}
+
+.tour-city{
+    
+    font-weight: bold;
+    
+}
+
+.tour-venue{
+    font-style: italic;
+
+    
+}
+
+.tour-button{
+    background-color: white;
+    margin: auto;
+    display: inline;
+}
+
+.tour-button:hover{
+    background-color:  #f9cb9c99;
+}
+
+form{
+    display: inline;
+}
+
+.store-item{
+    margin: 30px;
+}
+
+.store-item-name{
+    display:block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    
+}
+
+.store-item-details{
+    
+    align-items: center;
+    padding: 5px;
+    
+}
+
+.store-item-image{
+    height: 200px;
+   
+}
+
+.book{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.store-item-price{
+    flex-grow: 1;
+    margin-right: 20px;
+
+}
+
+.store-item-button{
+    background-color: white;
+    margin: auto;
+    display: inline;
+}
+
+.store-item-button:hover{
+    background-color:  #ffe49499;
+    
+}
+
+.store-items-all{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header{
+    font-weight: bold;
+    
+}
+
+.cart-column{
+
+    display: flex;
+    align-items: center;
+
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+
+
+}
+
+.cart-row{
+    display: flex;
+    
+    
+}
+
+.cart-item{
+    width: 25%;
+    
+
+}
+
+.cart-price{
+    width: 20%;
+    
+}
+
+.cart-quantity{
+    width: 37%;
+    
+}
+
+
+.cart-item-name{
+
+    margin-left: 1em;
+    font-style: italic;
+}
+
+.cart-item-image{
+    width: 40px;
+    height: auto;
+
+}
+
+.button-danger{
+   
+    background-color: white;
+}
+
+.button-danger:hover{
+    background-color: #e06666;
+    color: white;
+}
+
+.cart-quantity-input{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0;
+    text-align: center;
+    font-size: .75em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column{
+    border: none;
+}
+
+.cart-total{
+    text-align: end; /*end*/
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.cart-total-title{
+    font-weight: bold; 
+    font-size: 1.5em;
+    margin-right: 20px;
+    
+}
+
+.cart-total-price{
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+.button-checkout{
+    display: block;
+    margin: 40px auto 80px auto;
+    background-color: white;
+
+    font-size: 1.5em;
+}
+
+.button-checkout:hover{
+    color: white;
+    background-color: #93c47d;
+}
