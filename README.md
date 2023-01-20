@@ -40,7 +40,7 @@ The footer of each page contains links to the [book](https://www.goodreads.com/b
 A simple about page that contains a beautiful image of the band that lights up when you hover over it!
 
 ## TOUR
-An extensive tour page that highlights the electric teaser for the upcoming adpatation. This is followed by a list of locations along with a button to "GET TICKETS". Clicking this button will bring you to the Wikipedia page of the venue so you can read all about it's music history. 
+An extensive tour page that highlights the electric teaser for the upcoming adpatation. This is followed by a list of locations along with a button to "GET TICKETS". Clicking this button will bring you to the Wikipedia page of the venue so you can read about their music history. 
 
 <p align="center">
   <img src="./extras/tour.gif" width="700" height="700"/>
