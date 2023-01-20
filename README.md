@@ -16,11 +16,20 @@ With everything I create, I strive to make it pretty to look at. Design is essen
 *If you have any further questions, feel free to [reach out](https://github.com/vvhawk)!*
 
 ## Overview
+
+<p align="center">
+  <img src="./extras/header.gif" />
+</p>
+
 This website can be broken down into
 
 - [ABOUT](#about) 
 - [TOUR](#tour)
 - [STORE](#store)
+
+<p align="center">
+  <img src="./extras/footer.gif" />
+</p>
 
 The footer of each page contains links to the [book](https://www.goodreads.com/book/show/40597810-daisy-jones-the-six) and [tv show](). 
 
@@ -31,7 +40,11 @@ The footer of each page contains links to the [book](https://www.goodreads.com/b
 A simple about page that contains a beautiful image of the band that lights up when you hover over it!
 
 ## TOUR
-An extensive tour page that highlights the electric teaser for the upcoming adpatation. This is followed by a list of locations along with a button to "GET TICKETS". Clicking this button will bring you to the Wikipedia page of the venue so you can read all about it's music history.  
+An extensive tour page that highlights the electric teaser for the upcoming adpatation. This is followed by a list of locations along with a button to "GET TICKETS". Clicking this button will bring you to the Wikipedia page of the venue so you can read all about it's music history. 
+
+<p align="center">
+  <img src="./extras/tour.gif" width="700" height="700"/>
+</p>
 
 ## STORE
 A store page that contains a fully functional shopping cart. You can add items or change the quantity and watch the price adjust accordingly. 
