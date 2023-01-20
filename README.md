@@ -21,7 +21,7 @@ With everything I create, I strive to make it pretty to look at. Design is essen
   <img src="./extras/header.gif" />
 </p>
 
-This website can be broken down into
+This responsive website can be broken down into
 
 - [ABOUT](#about) 
 - [TOUR](#tour)
@@ -37,22 +37,39 @@ The footer of each page contains links to the [book](https://www.goodreads.com/b
 [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/CSS), and [JavaScript](https://en.wikipedia.org/wiki/JavaScript) were all utilized to craft this experience.
 
 ## ABOUT
-A simple about page that contains a beautiful image of the band that lights up when you hover over it!
+- A simple page that contains a beautiful image of the band that lights up when you hover over it!
+
+<p align="center">
+  <img src="./extras/about.gif" width="700" height="700"/>
+</p>
 
 ## TOUR
-An extensive tour page that highlights the electric teaser for the upcoming adpatation. This is followed by a list of locations along with a button to "GET TICKETS". Clicking this button will bring you to the Wikipedia page of the venue so you can read about their music history. 
+- An extensive page that highlights the electric teaser for the upcoming adpatation.
+- Followed by a list of locations along with a button to "GET TICKETS".
+- Clicking the button will bring you to the Wikipedia page of the venue so you can read about their music history. 
 
 <p align="center">
   <img src="./extras/tour.gif" width="700" height="700"/>
 </p>
 
 ## STORE
-A store page that contains a fully functional shopping cart. You can add items or change the quantity and watch the price adjust accordingly. 
+- A dynamic page that contains a fully functional shopping cart. 
+- Add items or change the quantity and watch the price adjust accordingly. 
 
 ## Easter Eggs
-Click checkout in the store say hello to your FREE fan club kit!
+### Fan Club Kit
+- Click checkout in the store say hello to your FREE fan club kit!
 
-This website uses the same font as the book
+### Responsive Design
+- A design that adjusts to different screen sizes
+
+### Familiar Font
+- This website uses the same font as the book
+
+<p align="center">
+  <img src="./extras/bookFont.png" width="400" height="400" />
+</p>
+
 ## Credits
 
 
