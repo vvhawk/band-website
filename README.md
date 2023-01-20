@@ -65,7 +65,11 @@ The footer of each page contains links to the [BOOK](https://www.goodreads.com/b
 </p>
 
 ## Responsive Design
-- A design that adjusts to different screen sizes
+- A design that adapts to different screen sizes
+
+Small            |  Large
+:-------------------------:|:-------------------------:
+![](./extras/small.png)  |  ![](./extras/large.png)
 
 ## Easter Eggs
 ### Fan Club Kit
