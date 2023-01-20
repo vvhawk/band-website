@@ -71,5 +71,7 @@ The footer of each page contains links to the [book](https://www.goodreads.com/b
 </p>
 
 ## Credits
+- Thanks to [Taylor Jenkins Reid](https://taylorjenkinsreid.com) for the inspiration
+- Thanks to [WebDevSimplified](https://www.youtube.com/@WebDevSimplified/featured) for the knowledge 
 
 
