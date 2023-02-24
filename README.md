@@ -1,4 +1,4 @@
-# Band Website
+# Band Website 🎸
 Welcome to my first website! Here, you’ll find a traditional band website reimagined for a fictional band from the novel [*Daisy Jones & The Six*](https://www.goodreads.com/book/show/40597810-daisy-jones-the-six) by [Taylor Jenkins Reid](https://taylorjenkinsreid.com).
 
 <p align="center">
